@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Use the App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFFFFF;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #F1A911;
+            text-align: center;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .instructions {
+            margin-top: 20px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        @media (min-width: 768px) {
+            .container {
+                max-width: 80%;
+            }
+        }
+        button {
+            background-color: #F1A911;
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: block;
+            margin: 10px auto;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #d88b10;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>How to Use the App</h1>
+
+        <!-- Video Section -->
+        <video controls>
+            <source src="videos/freevotevideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Instructions Section -->
+        <div class="instructions">
+            <h2>Instructions:</h2>
+            <p>1. When you open the app, you will see a text field where you need to enter your ID number.</p>
+            <p>2. Enter your real ID number as registered with Home Affairs. You'll be redirected to the registration screen.</p>
+            <p>3. On the registration screen, input your details as they are recorded with Home Affairs. If the details are incorrect, the app will display an "Invalid" message.</p>
+            <p>4. If you're testing, click the "Get Testing Details" button to be redirected to a webpage where dummy details can be generated.</p>
+            <p>5. Use the generated ID number, names, surname, and gender to test the app.</p>
+            <p>6. After entering the details and passing validation, you can create a 6-digit PIN and confirm it.</p>
+            <p>7. You'll then be directed to the home page, where you can view news (scrollable and clickable) and a slideshow showing the top 5 results in different categories.</p>
+            <p>8. The voting button will only be active during voting periods. To vote, select your province and candidates. You can only vote once.</p>
+            <p>9. You can exit the voting screen by clicking the back button.</p>
+            <p>10. To view results, click on the results screen.</p>
+            <p>11. Swipe from any screen or click the menu button on the top-left corner to access other options like settings, profile, and sign out.</p>
+            <p>12. In settings, you can delete your account, view notifications from admins, or send help requests if you're facing issues. Admins can respond to these requests.</p>
+        </div>
+    </div>
+</body>
+</html>
